@@ -22,7 +22,7 @@ router.post('/signup', async (req, res) => {
       })
 });
 
-router.post('/signin', async (req, res) => {
+router.post('/signin', async function (req, res) {
     // Implement admin signup logic
     const username = req.body.username;
     const password = req.body.password;
